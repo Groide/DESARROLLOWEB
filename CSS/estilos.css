@@ -1,0 +1,54 @@
+* {
+    color: blue;
+}
+
+p,span {
+    color: rgb(223, 226, 43);
+}
+
+p {
+    border: 5px dotted blue;
+    margin: 10px;
+    font-weight: lighter;
+    padding: 1px;
+}
+
+/**
+puto el que lee
+*/
+
+h1 {
+    font-family:'Roboto', sans-serif;;
+    color: orangered;
+    border: 10px solid yellowgreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /** se puede poner los 4 márgenes en un solo renglón de la siguiente manera:
+    margin: 15px 0px 258px 1511px */
+    padding: 10px 20px 15px 15px
+}   
+
+section {
+    width: 1000px;
+    border: 30px solid green;
+    padding: 10px;
+    margin: 0px;
+}
+
+#p1 {
+    color: brown;
+    font-size: 23px;
+    border: 1px solid orange;
+}
+
+.p_class {
+    color: violet;
+    font-size: 18px;
+    border: 2px dotted solid orange;
+}
+
+section h1 {
+    font-weight: 400px;
+}
